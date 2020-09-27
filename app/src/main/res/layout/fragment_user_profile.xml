@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:background="@color/colorTextWhite"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.appbar.CollapsingToolbarLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:expandedTitleGravity="top"
+            app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">
+
+            <LinearLayout
+                app:layout_collapseMode="pin"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/id_image_user_profile"
+                    android:layout_width="@dimen/dimen_width_user_profile"
+                    android:layout_height="@dimen/dimen_height_user_profile"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dimen_margin_large_12"
+                    android:src="@drawable/default_user" />
+
+                <TextView
+                    android:id="@+id/id_text_username"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/dimen_padding_small_6"
+                    android:text="@string/string_frag_user_profile_name"
+                    android:textSize="@dimen/dimen_text_big_24"
+                    android:textStyle="bold" />
+
+                <com.google.android.gms.common.SignInButton
+                    android:id="@+id/id_button_google_singin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_margin="@dimen/library_dimen_common_margin_small" />
+
+            </LinearLayout>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+   <androidx.core.widget.NestedScrollView
+       android:layout_width="match_parent"
+       app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior"
+       android:layout_height="wrap_content">
+       <LinearLayout
+           android:orientation="vertical"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="Rate Us"
+               android:layout_margin="@dimen/dime_margin_small_6"
+               android:padding="@dimen/dimen_padding_small_6"
+               android:layout_gravity="center"
+               android:textSize="@dimen/dimen_text_medium_18"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_margin="@dimen/dime_margin_small_6"
+               android:background="@color/colorDarkBlack"
+               android:layout_height="1dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="Share"
+               android:layout_margin="@dimen/dime_margin_small_6"
+               android:padding="@dimen/dimen_padding_small_6"
+               android:layout_gravity="center"
+               android:textSize="@dimen/dimen_text_medium_18"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_margin="@dimen/dime_margin_small_6"
+               android:background="@color/colorDarkBlack"
+               android:layout_height="1dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="Contact Us"
+               android:layout_margin="@dimen/dime_margin_small_6"
+               android:padding="@dimen/dimen_padding_small_6"
+               android:layout_gravity="center"
+               android:textSize="@dimen/dimen_text_medium_18"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_margin="@dimen/dime_margin_small_6"
+               android:background="@color/colorDarkBlack"
+               android:layout_height="1dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="Privacy Policy"
+               android:layout_margin="@dimen/dime_margin_small_6"
+               android:padding="@dimen/dimen_padding_small_6"
+               android:layout_gravity="center"
+               android:textSize="@dimen/dimen_text_medium_18"
+               android:layout_height="wrap_content"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_margin="@dimen/dime_margin_small_6"
+               android:background="@color/colorDarkBlack"
+               android:layout_height="1dp"/>
+           <TextView
+               android:layout_width="wrap_content"
+               android:text="Version 1.0"
+               android:layout_margin="@dimen/dime_margin_small_6"
+               android:padding="@dimen/dimen_padding_small_6"
+               android:layout_gravity="center"
+               android:textSize="@dimen/dimen_text_medium_18"
+               android:layout_height="wrap_content"/>
+       </LinearLayout>
+   </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="@dimen/dimen_adapter_liquor_types_corner_radius"
+    android:layout_margin="@dimen/dimen_margin_large_12"
+    app:cardBackgroundColor="@color/colorLiquor"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginLeft="@dimen/dimen_padding_small_6"
+        android:layout_marginRight="@dimen/dimen_padding_small_6"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/id_text_title_liquor"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/dimen_padding_small_6"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/dimen_text_big_24"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/id_text_content_liquor"
+            android:layout_width="wrap_content"
+            android:paddingTop="@dimen/dimen_padding_small_6"
+            android:paddingBottom="@dimen/dimen_padding_small_6"
+            android:textColor="@color/colorTextWhite"
+            android:textSize="@dimen/dimen_text_medium_18"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/dimen_text_medium_18"
+            android:text="@string/string_text_adapter_liquor_types_brands"
+            android:id="@+id/id_text_brands"
+            android:layout_gravity="end"
+            android:layout_marginBottom="@dimen/dimen_margin_large_12"
+            android:padding="@dimen/dimen_padding_small_6"
+            android:background="@drawable/ic_rect_stroke_brand"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>

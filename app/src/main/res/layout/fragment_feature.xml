@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.FeatureFrag">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTextWhite"
+        android:padding="@dimen/dimen_padding_small_6"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorTextWhite"
+            android:orientation="horizontal"
+            android:padding="@dimen/dimen_padding_small_6">
+
+            <TextView
+                android:id="@+id/id_text_advisor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dime_margin_small_6"
+                android:background="@drawable/ic_rect_advisor"
+                android:padding="@dimen/dimen_padding_medium_8"
+                android:text="Advisor"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="@dimen/dimen_text_medium_18" />
+
+
+            <TextView
+                android:id="@+id/id_text_liquor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dime_margin_small_6"
+                android:background="@drawable/ic_rect_liquor"
+                android:padding="@dimen/dimen_padding_medium_8"
+                android:text="Liquor Types"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="@dimen/dimen_text_medium_18" />
+
+            <TextView
+                android:id="@+id/id_text_cocktail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dime_margin_small_6"
+                android:background="@drawable/ic_rect_cocktail"
+                android:padding="@dimen/dimen_padding_medium_8"
+                android:text="Cocktail"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="@dimen/dimen_text_medium_18" />
+
+            <TextView
+                android:id="@+id/id_text_pros_cons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dime_margin_small_6"
+                android:background="@drawable/ic_rect_pros_cons"
+                android:padding="@dimen/dimen_padding_medium_8"
+                android:text="Pros And Cons"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="@dimen/dimen_text_medium_18" />
+
+            <TextView
+                android:id="@+id/id_text_hangover"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="@dimen/dime_margin_small_6"
+                android:background="@drawable/ic_rect_hangover"
+                android:padding="@dimen/dimen_padding_medium_8"
+                android:text="Hangover"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="@dimen/dimen_text_medium_18" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <FrameLayout
+        android:id="@+id/id_frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_layout_width_zero"
+        android:layout_weight="1" />
+</LinearLayout>
+

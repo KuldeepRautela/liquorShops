@@ -1,0 +1,141 @@
+<resources>
+    <string formatted="false"  name="app_name">LiquorShops</string>
+    <string formatted="false" name="connection_check_no_internet">No Internet Connection</string>
+    <string formatted="false" name="title_activity_main">Map</string>
+    <string  name="hello_blank_fragment">Hello blank fragment</string>
+    <string  name="string_menu_item_map">Map</string>
+    <string  name="string_menu_item_features">Features</string>
+    <string  name="item_string_menu_favorite">Favorites</string>
+    <string  name="string_menu_item_profile">UserProfile</string>
+    <string  name="string_activity_title_map">MAP</string>
+    <string  name="string_activity_title_user_profile">USER PROFILE</string>
+    <string  name="string_activity_title_favorites">FAVORITES</string>
+    <string  name="string_activity_title_features">FEATURES</string>
+    <string  name="string_frag_user_profile_email">Email : techcruzersforkanchan0520@gmail.com</string>
+    <string  name="string_frag_user_profile_name">User</string>
+    <string  name="string_frag_user_profile_facebook">Login with facebook</string>
+    <string  name="string_frag_user_profile_night_mode">Night Mode   </string>
+
+
+    <string name="googlegradle_maps_key">AIzaSyCAjOlth62yJGALq0xWr8R7t7EA_wGtRHU</string>
+    <string  name="string_text_drink_name_beer">BEER</string>
+    <string  name="string_text_drink_name_wine">WINE</string>
+    <string  name="string_text_drink_name_cider">HARD CIDER</string>
+    <string  name="string_text_drink_name_mead">MEAD</string>
+    <string  name="string_text_drink_name_sake">Saké</string>
+    <string  name="string_text_drink_name_gin">GIN</string>
+    <string  name="string_text_drink_name_brandy">BRANDY</string>
+    <string  name="string_text_drink_name_rum">RUM</string>
+    <string  name="string_text_drink_name_tequila">TEQUILA</string>
+    <string  name="string_text_drink_name_vodka">VODKA</string>
+    <string   name="string_text_drink_name_absinthe">ABSINTHE</string>
+    <string  name="string_text_drink_name_everclear">EVERCLEAR</string>
+    <string  name="string_text_drink_name_whiskey">WHISKEY</string>
+    <string  name="string_text_drink_wine">Wine is another popular and ancient alcoholic beverage. Standard wine has less than 14\% ABV. Champagne, the most well-known sparkling wine, has an alcohol concentration of about 10\% to 12\%. Some wines are “fortified” with distilled alcohol. Port, Madeira, Marsala, Vermouth, and Sherry are examples of fortified wines. They usually have about 20\% ABV.</string>
+    <string  name="string_text_drink_beer">Beer is the most popular alcoholic beverage worldwide. In fact, after water and tea, beer is the most commonly-consumed drink in the world. Beer is also most likely the oldest alcoholic drink in history. A standard beer, whether it be a lager or an ale, has between 4\% to 6\% ABV, although some beers have higher or lower concentrations of alcohol. For example, “light beers” only have between 2\% to 4\% ABV while “malt liquors” have between 6\% to 8\%.</string>
+    <string  name="string_text_drink_cider">Hard cider is an alcoholic drink made by fermenting the juice of fruit, usually apples. The addition of "hard" in its name is used to distinguish this drink from its non-alcoholic counterpart, apple cider, which is simply apple juice. But in many parts of world hard ciders are still simply called by the name ciders. On average, most hard ciders are 4.5\% - 7\% alcohol by volume (ABV), while some ciders have an ABV as high as 10 or 12\%.</string>
+    <string  name="string_text_drink_mead">Mead is fermented with three basic ingredients: honey, yeast and water.Mead is created by fermenting honey, while wine is made from fermented fruit. And though mead is often flavored with various fruits, that does not make it wine. It has between 10\% to 14\% ABV.</string>
+    <string  name="string_text_drink_rum">Rum, a distilled drink made from fermented sugarcane or molasses, has a typical alcohol concentration of 40\% ABV. Some rum is “overproof,” meaning that it has an alcohol concentration of at least 57.5\% ABV. Most over-proof rum exceeds this minimum, usually reaching 75.5\% ABV, which is equivalent to 151 proof.</string>
+    <string  name="string_text_drink_gin">Gin is a spirit made from juniper berries. It can have anywhere from 35\% to 55\% ABV. </string>
+    <string  name="string_text_drink_sake">Saké, a well-known Japanese drink made from fermented rice, has an alcohol concentration of about 16 to 20 ABV and it makes it more alcoholic than wine or beer.</string>
+    <string  name="string_text_drink_whisky">Whiskey is a spirit made from distilled, fermented grain. The ABV of whiskey ranges from 40\% to 50\%.</string>
+    <string  name="string_text_drink_brandy">Brandy is distilled wine. The concentration of alcohol in brandy ranges from 35\% to 60\%. For example, one famous brandy, Cognac, has 40\% ABV.</string>
+    <string  name="string_text_drink_tequila">Tequila is another popular spirit. Its main ingredient is the Mexican agave plant, and its alcohol concentration is usually about 40\% ABV.</string>
+    <string  name="string_text_drink_vodka">Vodka, a liquor usually made from fermented grains and potatoes, has a standard alcohol concentration of 40\% ABV.</string>
+    <string formatted="false" name="string_text_drink_absinthe">Absinthe is a spirit made from a variety of leaves and herbs. There is no evidence that absinthe is a hallucinogen(term applies to a variety of mind-altering drugs, might involve terrifying extreme confusion, anxiety, paranoia, and suicidal thoughts.), but it has a high concentration of alcohol. Some forms of absinthe have about 40\% ABV, while others have ABV as high as 90\%.</string>
+    <string  name="string_text_drink_ever_clear">Everclear, a grain-based spirit, is another drink with a heavy alcohol concentration. The minimum ABV of Everclear is 60\%, but Everclear can also have 75.5\% and 95\% ABV.</string>
+    <string  name="string_text_drink_beer_kingfisher"> Kingfisher</string>
+    <string  name="string_text_drink_beer_kingfisher_detail"> This widely available well-recognised beer brand is undoubtedly the "king of good times." Manufactured by United Breweries Group - led by the infamous Vijay Mallya, this is an easy-going lager.</string>
+    <string  name="string_text_drink_beer_tuborg"> Tuborg</string>
+    <string  name="string_text_drink_beer_tuborg_detail">If strong beers make you feel tipsy in no time, then Tuborg should be your choice. With an alcohol percentage of only 4.8\%, Tuborg is a bottom-fermented lager beer. Brewing it on lager malt results in its well-known mild, fresh taste with the aroma of flowers.</string>
+    <string  name="string_text_drink_beer_budweiser"> Budweiser</string>
+    <string  name="string_text_drink_beer_carlsberg_detail"> Carlsberg is yet another light-tasting beer. A rejuvenating and uniquely characterful Pilsener with a malty backbone and balanced bitterness and "probably the best beer in the world." </string>
+    <string  name="string_text_drink_beer_budweiser_detail"> Back when there weren\'t many options to choose from, grabbing a beer meant grabbing a six-pack of Budweiser, and you were done. And now in present times when competition is cutthroat, Budweiser still leads not only in the US but also in India. </string>
+    <string  name="string_text_drink_beer_carlsberg"> Carlsberg</string>
+    <string  name="string_text_drink_beer_heineken"> Heineken</string>
+    <string  name="string_text_drink_beer_heineken_detail"> Unlike other beers, Heineken brews its beers in horizontal tanks for a more distinct flavour and consistency. One of the most internationally recognised beers, Heineken comes straight from Holland and into your heart.</string>
+    <string  name="string_text_drink_whisky_macallan"> The Macallan</string>
+    <string  name="string_text_drink_whisky_macallan_detail"> One of the most highly revered Whisky brands in India, The Macallan, fortunately, is one Scotch that is easy to love immediately. An only Scotch distillery that has its own Master of Wood, The Macallan is the third largest selling single malt Whiskey in the world and the second largest by value.</string>
+    <string  name="string_text_drink_whisky_monkey">Monkey Shoulder Triple Malt</string>
+    <string  name="string_text_drink_whisky_monkey_detail"> For the lads and ladies who need all of it, Monkey Shoulder is crafted from not only one, but three distinct single malts - Balvenie, Glenfiddich and Kininvie, and packs in a super smooth ride! Be prepared for mellow vanilla notes with spicy pointers, and enjoy this one either on the rocks or in an exciting cocktail.</string>
+    <string  name="string_text_drink_whisky_talisker"> Talisker 18</string>
+    <string  name="string_text_drink_whisky_talisker_detail"> An intense drink, this tipple starts offevolved gently with a rich and fruity aroma and mild toffee notes, but as you sit back and relish your drink, you get a more extreme experience, this is smoky and even packs in a bit of a spicy kick!</string>
+    <string  name="string_text_drink_whisky_the_glenlivet">The Glenlivet 12</string>
+    <string  name="string_text_drink_whisky_the_glenlivet_detail">This one is pretty refreshing malt! An entry-stage Glenlivet, the 12-year-old packs in a citrusy punch, with the smooth aroma of grapefruit lemon and juicy citrus notes lingering on long after you\'ve completed your drink.</string>
+    <string  name="string_text_drink_whisky_glenfiddich"> Glenfiddich 12</string>
+    <string  name="string_text_drink_whisky_glenfiddich_detail"> The World\'s most awarded single malt Scotch Whiskey and one of the last family distilleries, Glenfiddich 12 is one of the biggest players in this segment globally and proudly fits under the segment of one of the Best Whisky Brands in India. Mild and clean on the palate, this one is thought for a fruity aroma and a sweet, creamy mouthfeel.</string>
+    <string  name="string_text_drink_brandy_honey_bee">  Honey Bee (United Breweries)</string>
+    <string  name="string_text_drink_brandy_honey_bee_detail">Honey Bee is the topmost selling brandy brand in India. It is a typical Indian brandy consisting of 42.8\% Alcohol by Volume (ABV).</string>
+    <string  name="string_text_drink_brandy_janus">Janus (Sula Vineyards)</string>
+    <string  name="string_text_drink_brandy_janus_detail">Janus brandy by Sula Vineyards is made of finest Indian grapes from Nashik region of Maharashtra.This brandy has won international accolades and is also exported from India.</string>
+    <string  name="string_text_drink_brandy_mansion"> Mansion House (The Tilaknagar Industries)</string>
+    <string  name="string_text_drink_brandy_mansion_detail">Another brandy brand which offers the best brandy in India is Mansion House.Mansion House made its appearance in India during the late 1970s.It continues to be marketed as French brandy. Indeed, Mansion House is distilled in India using French processes.</string>
+    <string  name="string_text_drink_brandy_constantino">Constantino (Khoday’s Group)</string>
+    <string  name="string_text_drink_brandy_constantino_detail">Constantino comes from Khoday’s Group of Bangalore. It is a top-notch brandy distilled from grapes grown in vineyards of Karnataka.Constantino brandy is very popular for its warming effects and is consumed widely during winters.</string>
+    <string  name="string_text_drink_brandy_officer_choice">officer’s Choice (Allied Blenders &amp; Distilleries Ltd)</string>
+    <string  name="string_text_drink_brandy_officer_choice_detail">Officer’s Choice brandy rides on the runaway success of the eponymous whisky brand.It is priced very reasonably and has replaced what was once famous in India as ‘Doctor’s Brandy’.</string>
+    <string  name="string_text_drink_vodka_magic_moments">Magic Moments</string>
+    <string  name="string_text_drink_vodka_magic_moments_detail">Magic Moments originates from the second largest distillery in Asia-Radico which itself only established back in 1943. It’s Magic When Purity Blends With Smoothness’, Magic Moments is a triple distilled, rice grain gluten-free vodka and launched back in 2006. </string>
+    <string  name="string_text_drink_vodka_romanov">Romanov</string>
+    <string  name="string_text_drink_vodka_romanov_detail">This vodka derived its name from the Romanov Dynasty that ruled Russia from 1612 to 1917. It is a brand of Vodka manufactured and marketed by United Spirits Limited. It contains 42.8\% alcohol by volume and here are 4 variants of Romanov Vodka - Premium, Orange, Lemon, Apple. Low-cost clubs and college students consume this brand of Vodka the most because it is one of the cheapest and best Vodka brands in India. </string>
+    <string  name="string_text_drink_vodka_fuel">Fuel</string>
+    <string  name="string_text_drink_vodka_fuel_detail">Seagrams\' Fuel Vodka is the second largest Vodka in the deluxe vodka segment. The brand purely stands for its uniqueness, innovation, and youthfulness. The variants of Fuel Vodka that are available are - Plain, apple &amp; orange. Fuel vodka is filtered through a series of specially designed activated charcoal filters. It can be easily consumed with water, juices or aerated drinks. </string>
+    <string  name="string_text_drink_vodka_vladivar">Vladivar</string>
+    <string  name="string_text_drink_vodka_vladivar_detail">Formally, UK\'s number two vodka brand, Vladavir owes its clean taste and exceptional smoothness to a triple distillation process devised by their third generation master distiller. It is made of 100\% pure grain and charcoal, filtered to the highest purity. That\'s a Vladi marvelous combination that makes it taste super smooth. Vladivar boasts of superior quality.</string>
+    <string  name="string_text_drink_vodka_white_mischief"> White Mischief</string>
+    <string  name="string_text_drink_vodka_white_mischief_detail">White Mischief being the largest selling vodka in the country acquired 48\% of the vodka share in India. White Mischief is advertised as a young, flirty fun brand, with its main purpose being attracting the youth. The alcohol content in this vodka is 42.8\%. It is manufactured through a process where it is triple-distilled to the highest level of purity so that the taste, flavor, and smoothness align with the flamboyancy of the youth and vodka enthusiasts.</string>
+    <string  name="string_text_drink_rum_old_monk">Old Monk</string>
+    <string  name="string_text_drink_rum_old_monk_detail">The most iconic &amp; best rum brand in India is here, the legendary Old Monk.To give you an idea of its popularity, it has a different base of drinkers (including me) for a unique taste, not necessarily because of its affordable price. </string>
+    <string  name="string_text_drink_rum_bacardi">Bacardi</string>
+    <string  name="string_text_drink_rum_bacardi_detail">Bacardi has over 200 products and marks as a premium alcoholic brand.They have now established sales in over 150 nations from its inception in 1862.Its open-winged fruit bat logo is the most popular global icon.</string>
+    <string  name="string_text_drink_rum_malibu">Malibu</string>
+    <string  name="string_text_drink_rum_malibu_detail">Malibu is produced from rum from the Caribbean and has a taste of coconut.The owner company, a French brand named Pernod Ricard, calls it a flavored rum.Nothing better than a delightful large glass of Malibu served in cocktail style on a tropical summer holiday.</string>
+    <string  name="string_text_drink_rum_captian_morgan">Captian Morgan</string>
+    <string  name="string_text_drink_rum_captian_morgan_detail">This rum is named after the 17th-century Lieutenant Governor of Jamaica, Sir Henry Morgan, who was also a privateer.The British company Diageo makes &amp; sells Captain Morgan under its marketing slogan, “To Life, Love &amp; Loot.”</string>
+    <string  name="string_text_drink_rum_havana_club">Havana Club</string>
+    <string  name="string_text_drink_rum_havana_club_detail">Havana Club is one of the best-selling rum products in the world, founded in Cuba in 1934.It is the fifth-biggest rum brand in the world, and its products are sold across 120 countries.It has a unique flavor of Caribbean chocolate and vanilla in its all rums, which are aged for around 7 years. </string>
+    <string  name="string_text_drink_wine_sula_rasa">SULA RASA</string>
+    <string  name="string_text_drink_wine_sula_rasa_detail">Sula Rasa or Rasa Shiraz is best served at 16-degree Celsius. A complex wine with power finesse but regardless termed as India\'s best reserve shiraz, Sula Rasa is stored for 12 months in premium French oak barrels and then further matured in the bottle before release. It can be best paired with chocolate, barbeque, and Gouda Parmesan cheese.</string>
+    <string  name="string_text_drink_wine_myra_misfit">MYRA MISFIT</string>
+    <string  name="string_text_drink_wine_myra_misfit_detail">Myra was launched in 2013 by Mr. Ajay Shetty with the Myra Vineyards located in Banglore. Myra launched with a segmented portfolio across 3 distinct categories - entry level, premium, and super premium. They launched a red blend in 2016 called Misfit - a limited edition bottle.</string>
+    <string  name="string_text_drink_wine_fratelli_sette">FRATELLI SETTE</string>
+    <string  name="string_text_drink_wine_fratelli_sette_detail">Relatively highly priced, This is a brand Frantiis Vines and is known for the aroma and flavors. This is one of the most popular brands in India and is known for taste. SETTE meaning Seven in Italian is a dream that the seven brothers of Fratelli had. The dream came true when the vintage of 2009 gave an exceptional quality product.</string>
+    <string  name="string_text_drink_wine_grover">GROVER ZAMPA LA RESERVE</string>
+    <string  name="string_text_drink_wine_grover_detail">80\% cab and 20\% Shiraz aged 16 months in new French oak. This is a well-balanced medium-bodied wine with complex layers. Not much on the nose but some smoke, tobacco, and red fruits on the palate. </string>
+    <string  name="string_text_drink_wine_york_arros">YORK ARROS</string>
+    <string name="string_text_drink_wine_york_arros_detail">This flagship wine from Maharashtra\'s York winery, produced by a young winemaking team, is a limited production blend of the winery’s best Shiraz (55\%) and Cabernet Sauvignon (45\%). The wine is aged 13 months in American and French oak, and another 12 months in the bottle before release.</string>
+    <string name="string_text_adapter_liquor_types_brands">BRANDS</string>
+    <string name="string_text_advisor_question_one">How often do you have a drink containing alcohol? </string>
+    <string name="string_text_advisor_question_two">How many Standard Drinks containing alcohol do you have on a typical day when you are drinking? </string>
+    <string name="string_text_advisor_question_three">How often do you have six or more drinks on one occasion? </string>
+    <string name="string_text_advisor_question_four">How often during the last year have you found that you were not able to stop drinking once you had started?</string>
+    <string name="string_text_advisor_question_five">How often in the last year have you failed to do what was normally expected from you because of drinking?</string>
+    <string name="string_text_advisor_question_six">How often in the last year have you needed a drink in the morning to get yourself going after a heavy drinking session? </string>
+    <string name="string_text_advisor_question_seven">How often in the last year have you had a feeling of guilt or remorse after drinking? </string>
+    <string name="string_text_advisor_question_eight">How often in the last year have you been unable to remember what happened the night before because you had been drinking? </string>
+    <string name="string_text_advisor_question_nine">Have you or someone else been injured as a result of your drinking? </string>
+    <string name="string_text_advisor_question_ten">Has a relative, friend or doctor, or other health worker been concerned about your drinking or suggested that you should cut down?</string>
+    <string name="string_text_advisor_answer_one">Never,Less than monthly,2-4 times a month,2-3 times a week,4 or more times a week</string>
+    <string name="string_text_advisor_answer_two">1or2,3or4,5or6,7to9,10 or more</string>
+    <string name="string_text_advisor_answer_three">Never,less than monthly,Monthly,Weekly,Daily or almost daily</string>
+    <string name="string_text_advisor_answer_four">Never,less than monthly,Monthly,Weekly,Daily or almost daily</string>
+    <string name="string_text_advisor_answer_five">Never,less than monthly,Monthly,Weekly,Daily or almost daily</string>
+    <string name="string_text_advisor_answer_six">Never,less than monthly,Monthly,Weekly,Daily or almost daily</string>
+    <string name="string_text_advisor_answer_seven">Never,less than monthly,Monthly,Weekly,Daily or almost daily</string>
+    <string name="string_text_advisor_answer_eight">Never,less than monthly,Monthly,Weekly,Daily or almost daily</string>
+    <string name="string_text_advisor_answer_nine">No,Yes but not in the last year,Yes during the last year</string>
+    <string name="string_text_advisor_answer_ten">No,Yes but not in the last year,Yes during the last year</string>
+    <string name="string_text_health_hangover_details">
+    <b>Eat Breakfast: </b>Low blood sugar levels contribute to some hangover symptoms. Eating in the morning helps regulate blood sugar levels to relieve this discomfort partially.\n\n
+    <b>Drinking plenty of water: </b>Re-hydrating the body by drinking water may help to improve the symptoms of a hangover.\n\n
+    <b>Eat Anti-oxidants: </b>The alcohol a person drinks causes oxidative stress, leading the body to produce free radicals. Antioxidants may help with this. Best anti-oxidant foods include berries, cherries, grapes, pomegranates, carrots, spinach.\n\n
+    <b>Try Ginger: </b>Ginger has the tendency to fight with the symptoms of alcoholic hangover.\n\n
+    <b>Getting Enough Sleep: </b>Taking rest can really help to refresh your body and becomes handy in hangover situations.\n\n
+    <b>Eating food before drinking: </b>Food can reduce the amount of time it takes for alcohol to enter into the bloodstream, keeping the blood alcohol levels lower. This could reduce the effects of a hangover.\n\n
+    </string>
+    <string name="string_adapter_liquor_shop_rating">Rating :</string>
+    <string name="string_text_hangover">How to get rid of Hangover ?</string>
+    <!--    <string name="googlegradle_maps_key">AIzaSyC74jAjI-tLov7cfYk3wdQl7xaGFamTkzg</string>-->
+
+
+</resources>

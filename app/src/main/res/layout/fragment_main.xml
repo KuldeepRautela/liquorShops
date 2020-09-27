@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.fragments.MainFrag">
+    <fragment android:id="@+id/autocomplete_fragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_layout_width_zero"
+        android:layout_weight="1"
+        >
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="NearBy Shops"
+            android:alpha="@dimen/dimen_button_alpha"
+            android:visibility="gone"
+            android:id="@+id/id_button_shop_nearby"
+            android:layout_gravity="bottom|right"
+            android:layout_margin="@dimen/dimen_margin_large_12"
+            android:padding="@dimen/dimen_padding_medium_8"
+            />
+        <com.google.android.gms.maps.MapView
+            android:layout_width="match_parent"
+            android:id="@+id/id_mapview"
+           android:layout_height="match_parent"/>
+    </FrameLayout>
+
+
+</LinearLayout>

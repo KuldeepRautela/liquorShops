@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/dimen_margin_large_12"
+        app:cardCornerRadius="@dimen/dimen_card_radius">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/id_image_shop"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="centerCrop"
+                 />
+
+            <TextView
+                android:id="@+id/id_text_shop_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_padding_small_6"
+                android:textColor="@color/colorDarkBlack"
+                android:textSize="@dimen/dimen_text_medium_18"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/id_text_shop_address"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dimen_padding_small_6"
+                android:textSize="@dimen/dimen_text_small_medium_16" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/id_text_rating"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textStyle="bold"
+                    android:paddingLeft="@dimen/dimen_padding_small_6"
+                    android:layout_gravity="center"
+                    android:textColor="@color/colorDarkBlack"
+                    android:text="@string/string_adapter_liquor_shop_rating"
+                    android:textSize="@dimen/dimen_text_small_medium_16"
+                    tools:ignore="HardcodedText" />
+                <ImageView
+                    android:id="@+id/id_image_direction"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/dime_margin_small_6"
+                    android:padding="@dimen/dimen_padding_medium_8"
+                    android:src="@drawable/ic_directions_black_24dp" />
+                <ImageView
+                    android:id="@+id/id_image_fav"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dimen_padding_medium_8"
+                    android:src="@drawable/ic_favorite_border_black_24dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

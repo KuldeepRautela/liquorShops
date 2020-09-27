@@ -1,0 +1,13 @@
+package com.example.liquorshops.utils.interfaces;
+
+public interface DatabaseKey {
+    String FAVSHOPS_TABLE="FAVSHOPS";
+    String SHOPNAME_COLUMN="SHOPNAME";
+    String SHOPADDRESS_COLUMN="SHOPADDRESS";
+    String SHOPIMG_COLUMN="SHOPIMG";
+    String SHOPLATITUDE_COLUMN="SHOPLATITUDE";
+    String SHOPLONGITUDE_COLUMN="SHOPLONGITUDE";
+    String SHOPRATING_COLUMN="SHOPRATING";
+    String PLACEID_COLUMN="PLACEID";
+    String LIQUORSHOP_DB="LIQUORSHOPSDB";
+}

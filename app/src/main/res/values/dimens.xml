@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_img_height">300dp</dimen>
+    <dimen name="dimen_padding_medium_8">8dp</dimen>
+    <dimen name="dimen_padding_small_6">6dp</dimen>
+    <dimen name="dime_margin_small_6">6dp</dimen>
+    <dimen name="dimen_margin_large_12">12dp</dimen>
+    <dimen name="dimen_margin_image_view">8dp</dimen>
+    <dimen name="dimen_text_big_24">24sp</dimen>
+    <dimen name="dimen_text_medium_18">18sp</dimen>
+    <dimen name="dimen_text_small_medium_16">16sp</dimen>
+    <dimen name="dimen_text_small">8sp</dimen>
+    <dimen name="dimen_width_user_profile">150dp</dimen>
+    <dimen name="dimen_height_user_profile">150dp</dimen>
+    <dimen name="dimen_adapter_liquor_types_corner_radius">10dp</dimen>
+    <dimen name="dimen_ic_rect_radius">50dp</dimen>
+    <dimen name="dimen_ic_rect_stroke_brand_radius">20dp</dimen>
+    <dimen name="dimen_icon_width">24dp</dimen>
+    <dimen name="dimen_icon_height">24dp</dimen>
+    <dimen name="dimen_layout_width_zero">0dp</dimen>
+    <dimen name="dimen_stroke_width_1">1dp</dimen>
+    <dimen name="dimen_stroke_radius_10">10dp</dimen>
+    <dimen name="dimen_adapter_liquor_brands_img_width">150dp</dimen>
+    <dimen name="dimen_adapter_liquor_brands_img_height">150dp</dimen>
+    <dimen name="dimen_adapter_fav_circle_image_width">100dp</dimen>
+    <dimen name="dimen_adapter_fav_circle_image_height">100dp</dimen>
+    <dimen name="dimen_card_radius">10dp</dimen>
+    <item name="dimen_button_alpha" type="dimen" format="float">0.5</item>
+</resources>

@@ -1,0 +1,22 @@
+package com.example.liquorshops.utils.enums;
+
+public enum ActionType {
+    ACTION_EXPLORE,
+    ACTION_ADD,
+    ACTION_SUBMIT,
+    ACTION_CANCEL,
+    ACTION_UPDATE,
+    ACTION_SHARE,
+    ACTION_COMMENT,
+    ACTION_PROFILE,
+    ACTION_EXPLORE_IMAGE,
+    ACTION_BROWSE,
+    ACTION_DELETE,
+    ACTION_REMOVE,
+    ACTION_EDIT,
+    ACTION_LONG_PRESS,
+    ACTION_CLEAR,
+    ACTION_REPORT,
+    TYPE_SIGN_FACEBOOK,
+    TYPE_SIGN_GOOGLE,
+}

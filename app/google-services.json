@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "3609499527",
+    "firebase_url": "https://liquorshops-694bc.firebaseio.com",
+    "project_id": "liquorshops-694bc",
+    "storage_bucket": "liquorshops-694bc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3609499527:android:59973cd79c3ad5fcdc6522",
+        "android_client_info": {
+          "package_name": "com.example.liquorshops"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3609499527-88v2l9rm35qoj4689hhvkrk2dbh8s7fk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.liquorshops",
+            "certificate_hash": "2b4cc2db2555dae7b26f107800e79fd92e0f884a"
+          }
+        },
+        {
+          "client_id": "3609499527-c8etsk8oeh5g8f6tvjmde61jrn8brupp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBbrC4MGll91TmnaJAfnSFhsHbcSi2Qv54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3609499527-c8etsk8oeh5g8f6tvjmde61jrn8brupp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

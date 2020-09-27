@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorYellow">#FFFF33</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorGradStart">#478071</color>
+    <color name="colorDarkBlack">#696969</color>
+    <color name="colorGradEnd">#91b593</color>
+    <color name="colorTextWhite">#ffffff</color>
+    <color name="colorAdvisor"> #509d87 </color>
+    <color name="colorCocktail">#581f2f</color>
+    <color name="colorPlan">#d6a9b6</color>
+    <color name="colorPros">#787878</color>
+    <color name="colorFav">#ca33a3</color>
+    <color name="colorLiquor">#61595f</color>
+    <color name="colorHangover">#758ec4</color>
+    <color name="colorLiquorBrandBackground">#FFEEAD</color>
+</resources>

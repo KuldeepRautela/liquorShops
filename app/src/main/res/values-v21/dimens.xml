@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dimen_img_height">300dp</dimen>
+    <dimen name="dimen_text_big_24">24sp</dimen>
+    <dimen name="dimen_text_medium_18">18sp</dimen>
+    <dimen name="dimen_text_small">8sp</dimen>
+</resources>

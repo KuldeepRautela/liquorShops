@@ -1,0 +1,58 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    ext.versions = [
+            'appcompat': '1.1.0',
+            'compileSdk'       : 28,
+            'build'            : '29.0.2',
+            'minSdk'           : 16,
+            'targetSdk'        : 28,
+            'firebaseCore'     : "17.0.1",
+            'firebaseMessaging': "19.0.1",
+            'playAuth'         : "17.0.0",
+            'material'         : "1.1.0",
+            'support'          : "1.0.0",
+            'card'             : "1.0.0",
+            'browser'          : "1.0.0",
+            'lifecycle'        : "2.2.0",
+            'room'             : "2.2.3",
+            'paging'           : "2.1.0",
+            'worker'           : '2.3.1',
+            'jamun'            : '0.0.8',
+            'volley'           : '1.1.0',
+            'gson'             : '2.8.5'
+    ]
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.5.0'
+        classpath 'com.google.gms:google-services:4.2.0'
+
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+
+
+    repositories {
+        google()
+
+        maven {
+            url 'https://maven.google.com/'
+            name 'Google'
+        }
+        jcenter()
+        maven {
+            url 'https://mvnrepository.com/artifact/com.android.tools.lint/lint-gradle-api'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}

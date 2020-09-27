@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorTextWhite"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="horizontal"
+    android:layout_height="match_parent">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="@dimen/dimen_adapter_fav_circle_image_width"
+        android:id="@+id/id_image_fav"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_height="@dimen/dimen_adapter_fav_circle_image_height"
+        android:layout_marginRight="@dimen/dime_margin_small_6"
+        />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/id_text_shop_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dime_margin_small_6"
+            android:textSize="@dimen/dimen_text_medium_18" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:id="@+id/id_text_shop_address"
+            android:layout_marginBottom="@dimen/dime_margin_small_6"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimen_text_small_medium_16" />
+     <LinearLayout
+         android:layout_width="match_parent"
+         android:orientation="horizontal"
+
+         android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginBottom="@dimen/dime_margin_small_6"
+            android:layout_height="wrap_content"
+            android:id="@+id/id_text_rating"
+            android:text="@string/string_adapter_liquor_shop_rating"
+            android:textSize="@dimen/dimen_text_small_medium_16" />
+         <ImageView
+             android:layout_width="wrap_content"
+             android:id="@+id/id_image_route"
+             android:layout_marginRight="@dimen/dimen_margin_large_12"
+             android:src="@drawable/ic_directions_black_24dp"
+             android:layout_height="wrap_content"/>
+         <ImageView
+             android:layout_width="wrap_content"
+             android:id="@+id/id_image_delete"
+             android:layout_marginRight="@dimen/dime_margin_small_6"
+             android:src="@drawable/ic_delete_black_24dp"
+             android:layout_height="wrap_content"/>
+     </LinearLayout>
+    </LinearLayout>
+    </LinearLayout>
+    <View
+        android:background="@color/colorDarkBlack"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/dime_margin_small_6"
+        android:layout_height="1dp"/>
+</LinearLayout>
